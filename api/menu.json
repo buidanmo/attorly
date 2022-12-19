@@ -1,0 +1,26 @@
+{"nav": 
+        [{
+            "title":"Menu",
+            "dropdown": ["Homepage 1","Homepage 2","Homepage 3","Homepage 4"] 
+            },
+            {
+                "title":"Pages",
+                "dropdown": ["About us 1","About us 2","About us 3","About us 4"] 
+                },
+            {
+                "title":"Services",
+                "dropdown": ["About us 1","About us 2","About us 3","About us 4"] 
+            },
+            {
+                "title":"Portfolio",
+                "dropdown": ["About us 1","About us 2","About us 3","About us 4"] 
+            },
+            {
+                "title":"Blog",
+                "dropdown": ["About us 1","About us 2","About us 3","About us 4"] 
+            },
+            {
+                "title":"Contact us",
+                "dropdown": ["About us 1","About us 2","About us 3","About us 4"] 
+            }]
+    }

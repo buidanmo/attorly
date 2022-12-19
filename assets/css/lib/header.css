@@ -1,0 +1,20 @@
+.brand-logo{
+    width: 100px;
+    height: 100px;
+    background: #0a1d35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand-img{
+    width: 40px;
+    height: auto;
+}
+.subnav-content {
+    display: none;
+    position: absolute;
+}
+.subnav:hover .subnav-content {
+    display: flex;
+    flex-direction: column;
+  }
