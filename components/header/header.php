@@ -26,11 +26,13 @@
                         <?php foreach ($menu->nav as $key=>$value):?>
                             <li class="nav-link subnav">
                                 <a href="#" class="text-dark text-decoration-none"><?php echo $value->title;?></a>
-                                <div class="subnav-content">
+                                <ul class="subnav-content">
                                     <?php foreach($value->dropdown as $item):?>
-                                        <a href="#" class="text-dark text-decoration-none"><?php echo $item?></a>
-                                        <?php endforeach;?>
-                                </div>
+                                        <li class="nav-link menu-item">
+                                            <a href="#" class="text-dark text-decoration-none"><?php echo $item?></a>
+                                            <?php endforeach;?>
+                                        </li>
+                                </ul>
                             </li>
                         <?php endforeach;?>
                     </ul>
